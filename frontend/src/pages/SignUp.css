@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.signup-container {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  margin: 3rem auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.signup-box {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Jomhuria', cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #474444;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background: none;
+  width: 200px;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.tab.active {
+  border-color: #a9bcff;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #a9bcff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  color: #474444;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #a9bcff;
+  outline: none;
+}
+
+.error-input {
+  border-color: #f00;
+}
+
+.error-message {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #a9bcff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #8a9dff;
+}
+
+.signup-button:disabled {
+  background-color: #d0d0d0;
+  cursor: not-allowed;
+}

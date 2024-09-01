@@ -1,0 +1,16 @@
+:root {
+  --font-size-base: 16px;
+  --spacing-unit: 8px;
+  --z-index-base: 10;
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-primary);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
